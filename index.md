@@ -5,7 +5,28 @@ title: Mya's About Me!
 
 
 Mya's About Me Page:
-{{cite.}}
+
+i'm 15 years old, a sophomore and Filipino + African American!
+Some of my interests are: listening to music, different mixed media art, fashion, I don't currently play a sport, but I really wanted to try hula as well as archery!
+
+im taking computer science because I wanted to major in it, while having my minor be fashion!
+
+{{cite./home/myamadriaga/Mya2}}
+
+some of my favorite artists: 
+Lamp
+The Cardigans
+Frank Ocean
+Sade
+Keyshia Cole
+Luis Miguel
+Rihanna
+SHISHAMO
+Beabadoobee
+Ichiko Aoba
+Dahlia
+
+
 
 
 ## Overview of Hacks, Study and Tangibles
