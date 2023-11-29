@@ -11,7 +11,7 @@ Some of my interests are: listening to music, different mixed media art, fashion
 
 im taking computer science because I wanted to major in it, while having my minor be fashion!
 
-{{cite./home/myamadriaga/Mya2}}
+![image](https://vscode.dev/github/myamadriaga/Mya2/blob/main/images/Get%20To%20Know%20Me%20Poster%20-%20Madriaga%2C%20Mya.png)
 
 some of my favorite artists: 
 Lamp
