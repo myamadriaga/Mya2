@@ -23,7 +23,7 @@ Some of my interests are: listening to music, sort of making music or paying a l
 </span>
 
 
-<span style="color:#5a4f5e;font-weight:700;font-size:20px">
+<span style="color:#5a4f5e;font-weight:200;font-size:10px">
 Fortnite.. Borderlands, Zelda, Skyrim, and most of the basic nintendo ones 
 </span>
 
