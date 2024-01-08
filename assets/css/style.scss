@@ -9,7 +9,7 @@
     width: auto;
     height: auto;
     border-radius: 10px;
-    background-color: #abbcc7;
+    background-color: #AD92BC;
     border: 3px solid black;
     font-size: 1.5em;
 
@@ -31,7 +31,7 @@
 
    /* darkens the background color on hover to create a selecting effect */
   .button:hover {
-    background-color: #373737;
+    background-color: #35084E;
   }
 
   /* "row style" is flexible size and aligns pictures in center */
@@ -45,7 +45,11 @@
     flex: 16.66%;
     padding: 3px;
   }
-  
+// Add sound to button on click
+
+
+
+
 // STYLING FOR CALCULATOR
   /* class to create the calculator's container; uses CSS grid dsiplay to partition off buttons */
   .calculator-container { 
@@ -79,15 +83,18 @@
   /* styling for the calculator clear button */
   .calculator-clear {
     @extend .button;
-    background-color: #e68b1c;
+    background-color: #471263;
   }
   
   /* styling for the calculator equals button */
   .calculator-equals {
     @extend .button;
-    background-color: #e70f0f;
+    background-color: #DDB1F4;
+
   }
   body {
-    background-color: #e1f3fa;
+    background-color: #F1EAF5;
     }
-    
+    body { background-image:url('/images/skytree-dango-tumblr.gif'); background-repeat:repeat; }
+   
+  

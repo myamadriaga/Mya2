@@ -24,8 +24,12 @@ courses: { compsci: {week: 2} }
   
     display: flex;
     align-items: center;
+          
   }
 </style>
+
+
+
 
 <!-- Add a container for the animation -->
 <div id="animation">
@@ -48,10 +52,13 @@ courses: { compsci: {week: 2} }
       <div class="calculator-number">9</div>
       <div class="calculator-operation">*</div>
       <!--row 4-->
+     <div class="calculator-operation">^2</div>
+      <!--row 5-->
       <div class="calculator-clear">A/C</div>
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
+     
   </div>
 </div>
 
@@ -74,6 +81,8 @@ courses: { compsci: {week: 2} }
       number(button.textContent);
     });
   });
+
+  
 
   // Number action
   function number (value) { // function to input numbers into the calculator
@@ -134,6 +143,10 @@ courses: { compsci: {week: 2} }
               break;
           default: 
               break;
+          case "^2":
+            result = first * first;
+            break;
+          
       }
       return result;
   }
@@ -170,29 +183,9 @@ courses: { compsci: {week: 2} }
 <!-- 
 Vanta animations just for fun, load JS onto the page
 -->
-<script src="{{site.baseurl}}/assets/js/three.r119.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.halo.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.birds.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.net.min.js"></script>
-<script src="{{site.baseurl}}/assets/js/vanta.rings.min.js"></script>
 
-<script>
-// setup vanta scripts as functions
-var vantaInstances = {
-  halo: VANTA.HALO,
-  birds: VANTA.BIRDS,
-  net: VANTA.NET,
-  rings: VANTA.RINGS
-};
 
-// obtain a random vanta function
-var vantaInstance = vantaInstances[Object.keys(vantaInstances)[Math.floor(Math.random() * Object.keys(vantaInstances).length)]];
 
-// run the animation
-vantaInstance({
-  el: "#animation",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false
-});
+
+
 </script>

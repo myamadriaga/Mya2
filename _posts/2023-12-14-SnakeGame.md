@@ -5,7 +5,8 @@ layout: post
 title: Classic Snake Game
 description: A pretty advanced use of JavaScript building classic snake game using menu controls, key events, snake simulation and timers.
 type: tangibles
-courses: { compsci: {week: 5} }
+courses: { compsci: {week: 4} }
+permalink: /Mya2/compsci
 ---
 
 <main>
@@ -69,26 +70,26 @@ courses: { compsci: {week: 5} }
 
 
 
-<script src="{{site.baseurl}}/assets/js/utils/snake.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/snakeCheesy.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/food.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/foodWinged.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/score.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/gameCanvas.js"></script>
-<script src="{{site.baseurl}}/assets/js/utils/sounds.js"></script>
+<script src="{{site.baseurl}}/game/utils/snake.js"></script>
+<script src="{{site.baseurl}}/game/utils/snakeCheesy.js"></script>
+<script src="{{site.baseurl}}/game/utils/food.js"></script>
+<script src="{{site.baseurl}}/game/utils/foodWinged.js"></script>
+<script src="{{site.baseurl}}/game/utils/score.js"></script>
+<script src="{{site.baseurl}}/game/utils/gameCanvas.js"></script>
+<script src="{{site.baseurl}}/game/utils/sounds.js"></script>
 
-<script src="{{site.baseurl}}/assets/js/game/mainGame1.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame2.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame3.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame4.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame5.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame6.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame7.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame8.js"></script>
-<script src="{{site.baseurl}}/assets/js/game/mainGame9.js"></script>
+<script src="{{site.baseurl}}/game/mainGame1.js"></script>
+<script src="{{site.baseurl}}/game/mainGame2.js"></script>
+<script src="{{site.baseurl}}/game/mainGame3.js"></script>
+<script src="{{site.baseurl}}/game/mainGame4.js"></script>
+<script src="{{site.baseurl}}/game/mainGame5.js"></script>
+<script src="{{site.baseurl}}/game/mainGame6.js"></script>
+<script src="{{site.baseurl}}/game/mainGame7.js"></script>
+<script src="{{site.baseurl}}/game/mainGame8.js"></script>
+<script src="{{site.baseurl}}/game/mainGame9.js"></script>
 
-<script src="{{site.baseurl}}/assets/js/init/gameInit.js"></script>
-<script src="{{site.baseurl}}/assets/js/init/loader.js"></script>
+<script src="{{site.baseurl}}/game/init/gameInit.js"></script>
+<script src="{{site.baseurl}}/game/init/loader.js"></script>
 
 <style>
     
@@ -97,10 +98,10 @@ courses: { compsci: {week: 5} }
 :root
 {
 	--theme: #BCD5EA;
-	--theme-light: #c4eebb;
+	--theme-light: ##CEE2F2;
 }
 
-*
+*=
 {
 	padding: 0;
 	margin: 0;
@@ -108,11 +109,9 @@ courses: { compsci: {week: 5} }
 	font-family: 'Nunito', sans-serif;
 }
 
-body
-{
-	background: url("{{site.baseurl}}/images/bg.png");
-}
-
+body {
+    background-color: #e1f3fa;
+    }
 
 header
 {

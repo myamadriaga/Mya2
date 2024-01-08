@@ -2,7 +2,7 @@ function GameCanvas()
 {
 	const canvas = document.querySelector("canvas");
 	const pen = canvas.getContext("2d");
-	// let currColor = "#2cff2c";
+	// let currColor = "#CEE2F2";
 	let currColor = "blue";
 	
 	this.setColor = function(color) {
