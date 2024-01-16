@@ -2,10 +2,10 @@
 toc: true
 comments: false
 layout: post
-title: Calculator MD
-description: Grab of the Calculator from APCSA repo.
+title: Calculator!
+description: purple calculator that plays pinkpanthress when you press the plus button...
 type: tangibles
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 5} }
 ---
 
 <style>
@@ -53,6 +53,8 @@ courses: { compsci: {week: 2} }
       <div class="calculator-operation">*</div>
       <!--row 4-->
      <div class="calculator-operation">^2</div>
+     <div class="calculator-operation">%</div>
+     <div class="calculator-operation">1/x</div>
       <!--row 5-->
       <div class="calculator-clear">A/C</div>
       <div class="calculator-number">0</div>
@@ -64,6 +66,11 @@ courses: { compsci: {week: 2} }
 
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
+
+var bgSound = new Audio("{{site.baseurl}}/assets/pinkpantheress-just-for-me-official-audio-(mp3convert.org).mp3")
+bgSound.loop = true;
+		bgSound.volume = 0.5;
+
   // initialize important variables to manage calculations
   var firstNumber = null;
   var operator = null;
@@ -107,6 +114,8 @@ courses: { compsci: {week: 2} }
   operations.forEach(button => {
     button.addEventListener("click", function() {
       operation(button.textContent);
+      
+			bgSound.play();
     });
   });
 
@@ -141,15 +150,24 @@ courses: { compsci: {week: 2} }
           case "/":
               result = first / second;
               break;
-          default: 
-              break;
           case "^2":
             result = first * first;
+            break; 
+          case "%":
+            result = first / 100;
+            break; 
+          case "1/x":
+            result = 1 / first;
             break;
-          
-      }
+          default: 
+              break;
+               }
       return result;
   }
+    
+      
+  
+  
 
   // Equals button listener
   equals.forEach(button => {
@@ -178,14 +196,5 @@ courses: { compsci: {week: 2} }
       output.innerHTML = "0";
       nextReady = true;
   }
-</script>
-
-<!-- 
-Vanta animations just for fun, load JS onto the page
--->
 
 
-
-
-
-</script>

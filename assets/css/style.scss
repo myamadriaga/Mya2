@@ -45,16 +45,11 @@
     flex: 16.66%;
     padding: 3px;
   }
-// Add sound to button on click
-
-
-
-
 // STYLING FOR CALCULATOR
   /* class to create the calculator's container; uses CSS grid dsiplay to partition off buttons */
   .calculator-container { 
     width: 90vw; /* this width and height is specified for mobile devices by default */
-    height: 80vh;
+    height: 90vh;
     margin: 0 auto;
   
     display: grid;
@@ -65,10 +60,13 @@
   
   @media (min-width: 600px) { 
     .calculator-container {
-        width: 40vw;
-        height: 80vh;
+        width: 50vw;
+        height: 100vh; 
     }
-  }
+}
+
+
+        
 
   /* styling for the calculator number button */
   .calculator-number {
@@ -92,9 +90,6 @@
     background-color: #DDB1F4;
 
   }
-  body {
-    background-color: #F1EAF5;
+    body { 
+      background-color:#E4FAFE;
     }
-    body { background-image:url('/images/skytree-dango-tumblr.gif'); background-repeat:repeat; }
-   
-  
