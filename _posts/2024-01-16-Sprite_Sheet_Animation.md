@@ -13,15 +13,26 @@ courses: { compsci: {week: 6} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="dogSprite" src="/teacher/images/dogSprites.png">  // change sprite here
+            <img id="zoroSprite" src="">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
             <label for="idle">Idle</label><br>
-            <input type="radio" name="animation" id="barking">
-            <label for="barking">Barking</label><br>
-            <input type="radio" name="animation" id="walking">
-            <label for="walking">Walking</label><br>
+            <input type="radio" name="animation" id="run">
+            <label for="run">run</label><br>
+            <input type="radio" name="animation" id="jump">
+            <label for="jump">jump</label><br>
+            <input type="radio" name="animation" id="oni giri" checked>
+            <label for="oni giri">onigiri</label><br>
+            <input type="radio" name="animation" id="shishi" checked>
+            <label for="shishi">sushi</label><br>
+            <input type="radio" name="animation" id="sanzen" checked>
+            <label for="sanzen">sanzen</label><br>
+            <input type="radio" name="animation" id="rashomon" checked>
+            <label for="rashomon">rashomon</label><br>
+
+
+
         </div>
     </div>
 </body>
